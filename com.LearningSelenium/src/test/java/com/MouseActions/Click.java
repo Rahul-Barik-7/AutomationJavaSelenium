@@ -1,4 +1,4 @@
-package MouseActions;
+package com.MouseActions;
 
 import java.time.Duration;
 
