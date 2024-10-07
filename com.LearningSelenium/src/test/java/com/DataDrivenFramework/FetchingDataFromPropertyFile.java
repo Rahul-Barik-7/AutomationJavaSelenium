@@ -1,4 +1,4 @@
-package DataDrivenFramework;
+package com.DataDrivenFramework;
 
 import java.io.FileInputStream;
 import java.io.IOException;

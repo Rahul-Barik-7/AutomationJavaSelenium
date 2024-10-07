@@ -1,4 +1,4 @@
-package DataDrivenFramework;
+package com.DataDrivenFramework;
 
 import java.io.IOException;
 import java.time.Duration;
