@@ -20,6 +20,8 @@ public class AlertPopUp {
 	Thread.sleep(2000);
 	driver.findElement(By.id("buttonAlert2")).click();
 	Thread.sleep(2000);
+	//Alert a = driver.switchTo().alert();
+	//a.accept();
 	Alert a = driver.switchTo().alert();
 	a.accept();
 	}	
