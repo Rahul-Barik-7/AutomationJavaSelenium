@@ -17,6 +17,7 @@ public class ScrollingTillParticularWebElement {
 		driver.get("https://www.zomato.com");
 		
 		WebElement zomato = driver.findElement(By.xpath("//img[@alt='Zomato logo']"));
+		//Rectangle r = zomato.getRect();
 		Rectangle r = zomato.getRect();
 		int x = r.getX();
 		int y = r.getY();

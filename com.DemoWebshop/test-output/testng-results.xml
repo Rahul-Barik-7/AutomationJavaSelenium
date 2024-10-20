@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Server Connected Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Database Connected Successfully]]>
+    </line>
+    <line>
+      <![CDATA[LaunchingChrome Successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Database closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Window close successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-20T09:10:21Z" name="Default suite" finished-at="2024-10-20T09:10:30Z" duration-ms="8660">
+    <groups>
+    </groups>
+    <test started-at="2024-10-20T09:10:21Z" name="Default test" finished-at="2024-10-20T09:10:30Z" duration-ms="8660">
+      <class name="TestScripts.RegisterTest">
+        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:TestScripts.RegisterTest@4b41dd5c]" started-at="2024-10-20T09:10:21Z" name="toConnectServer" finished-at="2024-10-20T09:10:21Z" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Server Connected Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectServer -->
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:TestScripts.RegisterTest@4b41dd5c]" started-at="2024-10-20T09:10:21Z" name="toConnectDatabase" finished-at="2024-10-20T09:10:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Connected Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScripts.RegisterTest@4b41dd5c]" started-at="2024-10-20T09:10:21Z" name="SetUp" finished-at="2024-10-20T09:10:26Z" duration-ms="4807" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LaunchingChrome Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="register()[pri:0, instance:TestScripts.RegisterTest@4b41dd5c]" started-at="2024-10-20T09:10:26Z" name="register" finished-at="2024-10-20T09:10:30Z" duration-ms="3571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScripts.RegisterTest@4b41dd5c]" started-at="2024-10-20T09:10:30Z" name="tearDown" finished-at="2024-10-20T09:10:30Z" duration-ms="256" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:TestScripts.RegisterTest@4b41dd5c]" started-at="2024-10-20T09:10:30Z" name="toCloseDatabase" finished-at="2024-10-20T09:10:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseDatabase -->
+        <test-method is-config="true" signature="toCloseSuite()[pri:0, instance:TestScripts.RegisterTest@4b41dd5c]" started-at="2024-10-20T09:10:30Z" name="toCloseSuite" finished-at="2024-10-20T09:10:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Window close successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseSuite -->
+      </class> <!-- TestScripts.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
