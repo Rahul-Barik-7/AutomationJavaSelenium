@@ -6,4 +6,6 @@ public interface IAutoConstant {
 	
 	String EXCEL_PATH="./src/test/resources/TestData/DemoWebShopData.xlsx";
 	String REG_SHEET="RegisterData";
+	String LOGIN_SHEET="ValidData";
+	
 }

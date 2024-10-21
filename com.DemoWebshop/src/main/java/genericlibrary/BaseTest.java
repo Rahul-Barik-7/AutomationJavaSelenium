@@ -43,7 +43,7 @@ public class BaseTest implements IAutoConstant {
 			driver = new EdgeDriver();
 		else
 			Reporter.log("Invalid Browser", true);
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMESECONDS));
 		driver.get(url);
 
